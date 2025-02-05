@@ -1,6 +1,6 @@
 body {
-  background: linear-gradient(150deg, #eff8ff 50%, #fcfdff 50%);
-  height: 100vh;
+  background: linear-gradient(135deg, #eff8ff 50%, #fcfdff 50%);
+  height: 60vw;
   width: 100%;
   background-repeat: no-repeat;
 }
@@ -30,7 +30,7 @@ nav {
   padding: 10px 20px;
   border-radius: 50px;
   font-family: "inter", sans-serif;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 nav button {
@@ -78,6 +78,16 @@ nav button {
 
 .menu-items li:not(:first-child) a:hover {
   color: var(--primary-color);
+}
+
+/* Menu Burger Comes here */
+.menuBurger span{
+  width: 3.5vw;
+  height: 3px;
+  border-radius: 1.5px;
+  margin: 4.5px;
+  display: none;
+  background-color: var(--secondary-color)
 }
 /* ....................... */
 
@@ -135,7 +145,7 @@ nav button {
 .heroIntro h2 {
   font-family: "Nunito", sans-serif;
   color: var(--secondary-color);
-  font-size: 56px;
+  font-size: 3em;
   line-height: 1;
   margin-top: 0px;
 }
