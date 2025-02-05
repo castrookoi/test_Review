@@ -1,0 +1,201 @@
+body {
+  background: linear-gradient(150deg, #eff8ff 50%, #fcfdff 50%);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+/* preset Styling */
+:root {
+  --primary-color: #0d83fd;
+  --secondary-color: #2d465e;
+  --heading-font: "Nunito", sans-serrif;
+  --heading-size: 56px;
+  --nav-fsize: 17px;
+  --par-fsize: 16px;
+  --svg: 20px;
+  --color-shade: #0d83fd14;
+}
+
+.container {
+  margin: 50px 30px;
+  /* padding: 50px; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcfdff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-family: "inter", sans-serif;
+  margin-bottom: 100px;
+}
+
+nav button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+  width: 99px;
+  height: 33px;
+  cursor: pointer;
+}
+
+/* Logo */
+.logo {
+  margin-left: 10px;
+  font-family: "inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* ................ */
+
+/* menu Comes here */
+.menu-items {
+  display: flex;
+}
+
+.menu-items li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.menu-items li a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu-items li:first-child a {
+  color: var(--primary-color);
+}
+
+.menu-items li:not(:first-child) a:hover {
+  color: var(--primary-color);
+}
+/* ....................... */
+
+/* Hero Section Starts Here */
+
+.hero {
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+  gap: 50px;
+}
+
+.leftPan {
+  width: 50%;
+  /* background-color: firebrick; */
+}
+
+.rightpan {
+  width: 50%;
+  /* background-color: yellow; */
+}
+
+.rightpan img {
+  width: 100%;
+}
+
+.success {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--color-shade);
+  box-sizing: border-box;
+  padding: 16px;
+  justify-content: center;
+  width: 260px;
+  height: 40px;
+  color: var(--primary-color);
+  font-family: "inter", sans-serif;
+  gap: 10px;
+  border-radius: 20px;
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.success {
+  margin-bottom: 20px;
+}
+.success svg {
+  fill: var(--primary-color);
+}
+
+.success p {
+  font-weight: 500;
+}
+
+.heroIntro h2 {
+  font-family: "Nunito", sans-serif;
+  color: var(--secondary-color);
+  font-size: 10vh;
+  line-height: 1;
+  margin-top: 0px;
+}
+
+.heroIntro h2 span {
+  color: var(--primary-color);
+}
+
+.heroIntro p {
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.startVideo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 300px;
+  margin-top: 50px;
+  gap: 15px;
+}
+
+.startVideo button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 40px;
+  border-radius: 50px;
+  width: 164px;
+  height: 51px;
+  cursor: pointer;
+}
+
+/* THE VIDEO ICON AND TEXT PLAY STYLING */
+.p_icon {
+  display: flex;
+  flex-direction: row;
+  /* background-color: yellow; */
+  align-items: center;
+  gap: 10px;
+}
+
+.p_icon a{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.p_icon p {
+  font-size: 16px;
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.p_icon svg{
+  fill: var(--secondary-color) !important;
+}
