@@ -135,7 +135,7 @@ nav button {
 .heroIntro h2 {
   font-family: "Nunito", sans-serif;
   color: var(--secondary-color);
-  font-size: 10vh;
+  font-size: 56px;
   line-height: 1;
   margin-top: 0px;
 }
