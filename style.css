@@ -209,3 +209,13 @@ nav button {
 .p_icon svg{
   fill: var(--secondary-color) !important;
 }
+
+@media screen and (max-width: 780px) {
+  .menuBurger span{
+    display: block;
+  }
+  menu-items{
+    display: none;
+    
+  }
+}
