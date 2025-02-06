@@ -210,11 +210,12 @@ nav button {
   fill: var(--secondary-color) !important;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 680px) {
   .menuBurger span{
     display: block;
   }
-  menu-items{
+  
+  .menu-items{
     display: none;
     
   }
